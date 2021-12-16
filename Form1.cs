@@ -49,11 +49,11 @@ namespace TemperatureCalculator02
         private void Convert2_Click(object sender, EventArgs e)
         {
             string input = textBoxF.Text;
-            double F1 = Convert.ToDouble(input);
+            double f = Convert.ToDouble(input);
             // [°C] = (5/9)x([°F]-32)
-            double C1 = (F1 - 32) * 5 / 9;
+            double c = (f - 32) * 5 / 9;
             // show input to textbox
-            textBoxC.Text = C1.ToString();
+            textBoxC.Text = c.ToString();
             
 
         }
