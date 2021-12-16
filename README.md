@@ -1,2 +1,2 @@
 # helloworld
-this my first c# program 
+My name is kiattisak khumjorhor
